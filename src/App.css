@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+
+.wrapper_App{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightseagreen;
+}
+
+.maximum{
+  min-height: 100vh;
+}
+
+.previewWrap, .editorWrap textarea {
+  background-color: #c0d8d8;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  border-top: none;
+}
